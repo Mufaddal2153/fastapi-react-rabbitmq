@@ -7,7 +7,7 @@
 - **Auth Service:** The Auth service handles user authentication and email verification. It includes functionality for registering users, generating and verifying OTPs, and ensuring email verification.
 - **Notification Service:** This service is responsible for sending emails to users. It is triggered when processes are completed .
 ## Architecture Diagram
-![architecture](readme_assets/architecture.png)
+![architecture](../readme_assets/architecture.png)
 
 ## Project Setup Instructions
 - **postgres database setup using docker**
