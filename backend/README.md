@@ -24,7 +24,7 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-ma
 ```
 - **Fork and Clone the repo using**
 ```
-https://github.com/shantanu1905/fastapi-microservice-demo.git
+https://github.com/Mufaddal2153/fastapi-react-rabbitmq.git
 ```
 - **Install the Dependencies from `requirements.txt`**
 - **Make sure your system has python 3.11.8 installed and before installing dependencies make sure your virtual environment is activated for each microservice .**
