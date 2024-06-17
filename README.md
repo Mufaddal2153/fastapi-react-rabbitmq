@@ -3,6 +3,9 @@
 ## This POC application is a microservice-based application that uses FastAPI, React, and RabbitMQ.
 The backend is divided into four microservices: Gateway, ML, Auth, and Notification. The frontend is a React application that communicates with the Gateway service to interact with the backend. RabbitMQ is used for communication between the microservices. The user can register, verify their email, and upload an image to extract text from it. The extracted text is then sent to the user via email. 
 
+## Architecture Diagram
+![architecture](readme_assets/architecture.png)
+
 ## Backend
 
 The backend consists of four main services:
@@ -14,9 +17,6 @@ The backend consists of four main services:
 
 ## Frontend
 The frontend is a React-Vite application that communicates with the Gateway service to interact with the backend. The user can register, verify their email, and upload an image to extract text from it. The extracted text is then sent to the user via email.
-
-## Architecture Diagram
-![architecture](readme_assets/architecture.png)
 
 ## Project Setup Instructions
 - **postgres database setup using docker**
